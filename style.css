@@ -6,6 +6,7 @@ h1 {
     font-family: "Monotype Corsiva";
     font-size: xxx-large;
     color: #333333;
+    background-color: #607080;
     text-shadow: 1px 2px 0px rgba(255,255,255,.5);
     border-bottom: 2px solid #333333;
     border-left: 2px solid #333333;
@@ -13,17 +14,33 @@ h1 {
 
 h1:hover {
     color: #313131;
-    text-shadow: 1px 3px 0px rgba(255,255,255,.5);
+    text-shadow: 1px 2px 0px rgba(0,0,0,.5);
 }
 
-b {
+p, b, li {
+    font-size: larger;
     color: #111111;
     text-shadow: 0px 1px 0px rgba(255,255,255,.5);
 }
 
+p:hover {
+    color: #131313;
+    text-shadow: 0px 1px 0px rgba(0,0,0,.5);
+}
+
 b:hover {
-    color: #090909;
-    text-shadow: 0px 2px 0px rgba(255,255,255,.5);
+    color: #131313;
+    text-shadow: 0px 1px 0px rgba(0,0,0,.5);
+}
+
+li:hover {
+    color: #131313;
+    text-shadow: 0px 1px 0px rgba(0,0,0,.5);
+}
+
+.signature {
+    font-family: "Vladimir Script";
+    font-size: larger;
 }
 
 .sectionBarBackground {
@@ -42,8 +59,8 @@ b:hover {
     border-right: 4px solid #333333;
     border-top: 4px solid lightgray;
     border-left: 4px solid lightgray;
-    padding: 9px;
-    margin: 9px;
+    padding: 10px;
+    margin: 8px;
 }
 
 .navBarBackground {
@@ -62,8 +79,8 @@ b:hover {
     border-right: 4px solid #333333;
     border-top: 4px solid #eda55f;
     border-left: 4px solid #eda55f;
-    padding: 9px;
-    margin: 9px;
+    padding: 10px;
+    margin: 8px;
 }
 
 .navBarButton {
